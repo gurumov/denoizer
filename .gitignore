@@ -1,0 +1,14 @@
+.DS_Store
+dataset/
+.env/
+.envrc
+.idea/
+*.pyc
+*.pyo
+__pycache__/
+*__pycache__*
+*.egg-info/.pytest_cache
+.pytest_cache/
+*.egg-info/
+.coverage
+

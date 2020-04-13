@@ -1,0 +1,29 @@
+seed: 123
+
+DataPipelineConfig:
+  example_repetitions: 1
+  TrainingPipeline:
+    images_path: "./dataset/train"
+    patch_size: 256
+    batch_size: 4
+    max_sigma: 10.0
+  TestPipeline:
+    images_path: "./dataset/test"
+    patch_size: 256
+    batch_size: 1
+    max_sigma: 10.0
+
+ModelConfig:
+  dropout_rate: 0.2
+  optimizer: 'Adam'
+  loss_name: 'custom_mae'
+  learning_rate: 0.001
+  metrics_list:
+    - "MSE"
+    - "MAE"
+
+ModelIOConfig:
+  model_name: "custom_loss_model"
+  checkpoint_save_path: "./saved_models"
+  log_dir: "./saved_logs"
+  log_update_frequency: 100
