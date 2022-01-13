@@ -10,7 +10,7 @@ setup(
         "numpy>=1.17.4",
         "tensorflow==2.0.0",
         "PyYAML==5.3.1",
-        "Pillow==7.1.1",
+        "Pillow==9.0.0",
         "setuptools==40.8.0",
         "tqdm>=4.41.1"
     ],
