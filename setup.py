@@ -8,7 +8,7 @@ setup(
     packages=find_packages(exclude=["test_denoizer"]),
     install_requires=[
         "numpy>=1.17.4",
-        "tensorflow==2.0.0",
+        "tensorflow==2.5.3",
         "PyYAML==5.3.1",
         "Pillow==7.1.1",
         "setuptools==40.8.0",
