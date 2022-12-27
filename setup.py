@@ -11,7 +11,7 @@ setup(
         "tensorflow==2.0.0",
         "PyYAML==5.3.1",
         "Pillow==7.1.1",
-        "setuptools==40.8.0",
+        "setuptools==65.5.1",
         "tqdm>=4.41.1"
     ],
     extras_require={  # allow to pip install object_region_proposal_3d[dev] to get the full environment including test stuff
